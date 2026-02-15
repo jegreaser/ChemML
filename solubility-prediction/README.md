@@ -10,7 +10,7 @@ A neural network model coded with PyTorch to predict the solubility of small mol
 
 The model scores well on predictive accuracy benchmarks with the ESOL dataset.
 
-![Predictions]width="2372" height="2371" alt="predictions" src="https://github.com/user-attachments/assets/657f4815-eded-4616-9098-06283da3c851" />
+![Predictionswidth="2372" height="2371" alt="predictions" src="https://github.com/user-attachments/assets/657f4815-eded-4616-9098-06283da3c851" />]
 
 
 ## Dataset
