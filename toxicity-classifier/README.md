@@ -32,5 +32,3 @@ Feedforward neural network:
 ## Class Imbalance Challenge
 
 Initial results had 85% accuracy, due to the large class imbalance heavily skewed towards non-toxic molecules. Applying class weighting (5:1 ratio) to prioritize detecting toxic molecules, improved recall to 74% at the cost of lower precision.
-
-![
