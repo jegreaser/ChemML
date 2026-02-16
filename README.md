@@ -8,7 +8,7 @@ Machine learning models for chemistry and materials science applications.
 Neural network predicting aqueous solubility from molecular descriptors.
 - RMSE: 0.7436, R²: 0.8820
 
-### [Molecular Toxicity Classification](./toxicity-classifier)
+## [Molecular Toxicity Classification](./toxicity-classifier)
 Neural network classifying toxicity from molecular descriptors
 - Accuracy: 75.29%, Recall: 74.47%
 
