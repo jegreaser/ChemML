@@ -6,7 +6,7 @@ Machine learning models for chemistry and materials science applications.
 
 ### [Molecular Solubility Prediction](./solubility-prediction)
 Neural network predicting aqueous solubility from molecular descriptors.
-- RMSE: 0.73, R²: 0.90
+- RMSE: 0.7436, R²: 0.8820
 
 ### More projects coming soon...
 
