@@ -6,9 +6,9 @@ A machine learning model for predicting the electronic band gap (eV) of material
 
 Test Set Results:
 
-RMSE: 0.7274 eV
-MAE: 0.4610 eV
-R²: 0.7926
+RMSE: 0.7274 eV;
+MAE: 0.4610 eV;
+R²: 0.7926;
 
 The model explains ~79% of the variance in band gap values, with a MAE of 0.4610 which puts it in the range of top models for this task.
 
