@@ -24,7 +24,16 @@ Train set: 74321 samples
 Validation set: 15875 samples
 Test set: 15917 samples
 
-## 🔍 Known Limitations
+## Model Architecture
+
+Feedforward neural network with:
+- Input: 132 compositional features (atomic number, range/mean/std of electronegativity, valence electron statistics, etc.)
+- Hidden layers: 256 → 128 → 64 neurons
+- Output: Predicted band gap
+- Dropout regularization (0.2, 0.2, 0.1) to prevent overfitting
+- Total parameters: ~75,000
+
+## Known Limitations
 
 - **High band gap materials (> 6 eV):** There are less samples in this regime, so predictions show high variance.
 - **Negative predictions:** A few band gap predictions fall below zero. In practice, these predictions would be clipped to zero for maximum accuracy.
