@@ -20,59 +20,12 @@ The model explains ~79% of the variance in band gap values, with a MAE of 0.4610
 
 The model is trained on a dataset of inorganic materials with DFT-computed band gaps from matliner.
 
-| Split      | Size |
-|------------|------|
-| Train      | —    |
-| Validation | —    |
-| Test       | —    |
-
-
----
-
-## ⚙️ Training
-
-To retrain the model from scratch:
-
-```bash
-python train.py --config configs/default.yaml
-```
-
-Key hyperparameters are defined in `configs/default.yaml`. Results and checkpoints will be saved to `outputs/`.
-
----
-
-## 📈 Evaluation
-
-To reproduce the test set evaluation:
-
-```bash
-python evaluate.py --model model/best_model.pkl --data data/processed/test.csv
-```
-
-This will print metrics and regenerate the `predictions.png` scatter plot.
-
----
+Train set: 74321 samples
+Validation set: 15875 samples
+Test set: 15917 samples
 
 ## 🔍 Known Limitations
 
-- **High band gap materials (> 6 eV):** Predictions show higher variance, likely due to sparse training data in this regime.
-- **Negative predictions:** A small number of predictions fall slightly below zero. These should be clipped to 0 eV in practice, as negative band gaps are unphysical for the targeted material class.
-- **Out-of-distribution materials:** Performance may degrade for material families underrepresented in the training set.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 📬 Contact
-
-For questions or feedback, open an issue on GitHub or reach out at `your-email@example.com`.
+- **High band gap materials (> 6 eV):** There are less samples in this regime, so predictions show high variance.
+- **Negative predictions:** A few band gap predictions fall below zero. In practice, these predictions would be clipped to zero for maximum accuracy.
+- **Out-of-distribution materials:** Some poor predictions can be attributed to various material families that are underrepresented in the dataset.
