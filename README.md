@@ -12,7 +12,7 @@ Neural network predicting aqueous solubility from molecular descriptors.
 Neural network classifying toxicity from global molecular properties
 - Accuracy: 75.29%, Recall: 74.47%
 
-### [Molecular Toxicity Classification](./toxicity-classifier)
+### [Band Gap Prediction](./band-gap-predictor)
 Neural network predicting band gap (eV) from 132 parameters
 - RMSE: 0.7274 eV, R²: 0.7926
 
