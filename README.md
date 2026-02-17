@@ -9,8 +9,12 @@ Neural network predicting aqueous solubility from molecular descriptors.
 - RMSE: 0.7436, R²: 0.8820
 
 ### [Molecular Toxicity Classification](./toxicity-classifier)
-Neural network classifying toxicity from molecular descriptors
+Neural network classifying toxicity from global molecular properties
 - Accuracy: 75.29%, Recall: 74.47%
+
+### [Molecular Toxicity Classification](./toxicity-classifier)
+Neural network predicting band gap (eV) from 132 parameters
+- RMSE: 0.7274 eV, R²: 0.7926
 
 ### More projects coming soon...
 
