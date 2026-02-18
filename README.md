@@ -19,4 +19,4 @@ Neural network predicting band gap (eV) from 132 parameters
 ### More projects coming soon...
 
 ## About
-High school student exploring ML applications in chemistry. Interested in computational materials science and quantum chemistry.
+High school student exploring the intersection of materials science and machine learning. Currently developing models on inorganic and molecular compounds with an emphasis on property optimization in materials science.
